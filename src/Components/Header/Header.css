@@ -1,0 +1,14 @@
+.menu-list a{
+    padding: 10px 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.menu-list a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.header-container{
+    width: 1400px;
+}
