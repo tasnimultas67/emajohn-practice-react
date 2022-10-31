@@ -33,11 +33,7 @@ const Shop = () => {
                     </div>
                 </div>
                 <div>
-                    <h1 className='text-center border'>this where we show product cart</h1>
-                    <p className='text-center text-2xl'>{carts.length} Available Products</p>
-                    <div>
-                        <Cart carts={carts}></Cart>
-                    </div>
+                    <Cart carts={carts}></Cart>
                 </div> 
         </div>
     );
