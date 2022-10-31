@@ -10,6 +10,8 @@
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-top-right-radius: 5px;
+    border-top-LEFT-radius: 5px;
 }
 .product-txt{
     overflow: hidden;
@@ -24,4 +26,10 @@
     overflow: hidden;
     max-height: 3.6em;
     line-height: 1.8em; */
+}
+.product-btn{
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: 500;
 }
