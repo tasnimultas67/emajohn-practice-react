@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
+import './Shop.css'
 
 const Shop = () => {
     const [products, setProducts] = useState([])
@@ -14,9 +15,9 @@ const Shop = () => {
 
 
     return (
-        <div className='grid grid-cols-5'>
+        <div className='grid grid-cols-5 shop-container'>
 
-                <div className='xl:col-span-4 md:col-span-4 sm:col-span-3'>
+                <div className='xl:col-span-4 md:col-span-4 sm:col-span-3 mx-5'>
                     <h1 className='text-center '>this container where we show product</h1>
                     <div className='grid grid-cols-4 gap-5'>
                     {

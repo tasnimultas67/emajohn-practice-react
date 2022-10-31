@@ -7,11 +7,11 @@ const Product = (props) => {
         <div>
             <div className='border p-5 product-container rounded-md'>
                 <div>
-                    <img src={image} alt="" className='w-32 m-auto' />
+                    <img src={image} alt="" className='w-32 m-auto product-img' />
                 </div>
                 <div className='text-center mt-2'>
                     <p className='p-2 bg-lime-600 w-32 rounded m-auto text-white'>{category}</p>
-                    <h1 className='mt-2'>{title}</h1>
+                    <h1 className='mt-2 product-txt' >{title}</h1>
 
                 </div>
             </div>
